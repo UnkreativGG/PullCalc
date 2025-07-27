@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace PullCalc;
+﻿namespace PullCalc;
 internal static class DateOnly
 {
     internal static bool DoEqual(this DateTime dt1, DateTime dt2)
