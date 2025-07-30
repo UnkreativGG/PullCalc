@@ -22,7 +22,7 @@ ABanner[] banners =
     new StandardBanner("opera singer", new DateTime(2025, 12, 8), null, null, new StandardEvent()),
     new StandardBanner("lezi", new DateTime(2026, 02, 10), null, null, new SideEvent()),
 
-    new StandardBanner("Tomboy", new DateTime(2026, 01, 9), null, null, new StandardEvent()),
+    new LimitedBanner("Tomboy", new DateTime(2026, 01, 9), null, null, new LargeEvent()),
 ];
 
 Inv inv = new()
