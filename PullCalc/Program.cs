@@ -4,7 +4,6 @@ using PullCalc.Event;
 
 ABanner[] banners =
 [  
-    new StandardBanner("red'n'black", new DateTime(2025, 8, 5), null, null, new StandardEvent()),
     new StandardBanner("anti reed", new DateTime(2025, 9, 5), null, null, new StandardEvent()),
     new StandardBanner("energy drink", new DateTime(2025, 10, 5), null, null, new NewChapter()),
     
@@ -12,7 +11,8 @@ ABanner[] banners =
     new StandardBanner("opera singer", new DateTime(2025, 12, 8), null, null, new StandardEvent()),
     new StandardBanner("lezi", new DateTime(2026, 02, 10), null, null, new SideEvent()),
 
-    new LimitedBanner("Tomboy", new DateTime(2026, 01, 9), null, null, new LargeEvent()),
+    new LimitedBanner("Tomboy", new DateTime(2026, 01, 16), null, null, new LargeEvent()),
+    new CollabBanner("Tomboy", new DateTime(2026, 03, 20), null, -1, new StandardEvent()),
 ];
 
 Inv inv = new()
