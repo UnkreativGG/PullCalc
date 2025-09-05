@@ -7,7 +7,7 @@ internal class CollabBanner(string name, DateTime releaseDate, DateTime? endDate
 
     internal override bool Free10Pull => true;
 
-    internal override bool FreeDailyPull => true;
+    internal override bool FreeDailyPull => true; // actually 2 free 10 and no daily
 
     internal override int AverageDailyOrundum => 400;
 }

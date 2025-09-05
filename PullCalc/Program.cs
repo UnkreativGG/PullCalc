@@ -12,14 +12,14 @@ ABanner[] banners =
     new StandardBanner("lezi", new DateTime(2026, 02, 10), null, null, new SideEvent()),
 
     new LimitedBanner("Tomboy", new DateTime(2026, 01, 16), null, null, new LargeEvent()),
-    new CollabBanner("Tomboy", new DateTime(2026, 03, 20), null, -1, new StandardEvent()),
+    new CollabBanner("Thorns power crep", new DateTime(2026, 03, 20), null, -1, new StandardEvent()),
 ];
 
 Inv inv = new()
 {
-    Orundum = 68919,
-    OriginumPrime = 697,
-    SinglePull = 34,
+    Orundum = 96200,
+    OriginumPrime = 762,
+    SinglePull = 41,
     TenPulls = 0,
     PrimeRemaining = 0,
 };
